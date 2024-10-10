@@ -31,3 +31,8 @@ C:\Users\ccaeaad\OneDrive - University College London\GitHub\BincomApps\BincomOc
 C:\Users\ccaeaad\OneDrive - University College London\GitHub\BincomApps\BincomOctober2024CSharp\obj\Debug\net8.0\ContactSession1.pdb
 C:\Users\ccaeaad\OneDrive - University College London\GitHub\BincomApps\BincomOctober2024CSharp\obj\Debug\net8.0\ContactSession1.genruntimeconfig.cache
 C:\Users\ccaeaad\OneDrive - University College London\GitHub\BincomApps\BincomOctober2024CSharp\obj\Debug\net8.0\ref\ContactSession1.dll
+C:\Users\ccaeaad\OneDrive - University College London\GitHub\BincomApps\BincomOctober2024CSharp\bin\Debug\net8.0\publish\web.config
+C:\Users\ccaeaad\OneDrive - University College London\GitHub\BincomApps\BincomOctober2024CSharp\bin\Debug\net8.0\publish\appsettings.Development.json
+C:\Users\ccaeaad\OneDrive - University College London\GitHub\BincomApps\BincomOctober2024CSharp\bin\Debug\net8.0\publish\appsettings.json
+C:\Users\ccaeaad\OneDrive - University College London\GitHub\BincomApps\BincomOctober2024CSharp\bin\Debug\net8.0\publish\ContactSession1.deps.json
+C:\Users\ccaeaad\OneDrive - University College London\GitHub\BincomApps\BincomOctober2024CSharp\bin\Debug\net8.0\publish\ContactSession1.runtimeconfig.json
