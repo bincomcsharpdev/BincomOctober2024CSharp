@@ -54,83 +54,12 @@ jobs:
         with:
           name: .net-app
       
-          name: Build and deploy ASP.Net Core app to Azure Web App - chinonso-bincom-api
-
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: windows-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up .NET Core
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '8.x'
-
-      - name: Print working directory
-        run: pwd
-
-      - name: List files
-        run: ls -la
-
-      - name: Build with dotnet
-        run: dotnet build --configuration Release
-
-      - name: dotnet publish
-        run: dotnet publish -c Release -o ./publish_output
-
-      - name: List publish output
-        run: ls -la ./publish_output  # List the contents of the publish directory
-
-      - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v4
-        with:
-          name: .net-app
-          path: ./publish_output
-
-  deploy:
-    runs-on: windows-latest
-    needs: build
-    environment:
-      name: 'Production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-    permissions:
-      id-token: write # Required for requesting the JWT
-
-    steps:
-      - name: Download artifact from build job
-        uses: actions/download-artifact@v4
-        with:
-          name: .net-app
-      
-      - name: Login to Azure
-        uses: azure/login@v2
-        with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_C656335AE56E45E9B618A1FE7C04EB97 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_DECF0AB31A224B3FAE68CFDB6CCED70B }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_46EF9E201A8E4829AE355051C491E936 }}
-      
       - name: Print client-id, tenant-id, and subscription-id
         run: |
-          echo "Client ID: ${{ secrets.AZUREAPPSERVICE_CLIENTID_C656335AE56E45E9B618A1FE7C04EB97 }}"
-          echo "Tenant ID: ${{ secrets.AZUREAPPSERVICE_TENANTID_DECF0AB31A224B3FAE68CFDB6CCED70B }}"
-          echo "Subscription ID: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_46EF9E201A8E4829AE355051C491E936 }}"
+            echo "Client ID: ${{ secrets.AZUREAPPSERVICE_CLIENTID_C656335AE56E45E9B618A1FE7C04EB97 }}"
+            echo "Tenant ID: ${{ secrets.AZUREAPPSERVICE_TENANTID_DECF0AB31A224B3FAE68CFDB6CCED70B }}"
+            echo "Subscription ID: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_46EF9E201A8E4829AE355051C491E936 }}"
             
-      - name: Deploy to Azure Web App
-        id: deploy-to-webapp
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: 'chinonso-bincom-api'
-          slot-name: 'Production'
-          package: ./publish_output  # Ensure this path matches the output from the publish step
-
       - name: Login to Azure
         uses: azure/login@v2
         with:
