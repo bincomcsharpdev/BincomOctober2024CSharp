@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BincomOctober2024CSharp\\ContactSession1\\ContactSession1.csproj": {}
+    "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BincomOctober2024CSharp\\ContactSession1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BincomOctober2024CSharp\\ContactSession1\\ContactSession1.csproj": {
+    "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BincomOctober2024CSharp\\ContactSession1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BincomOctober2024CSharp\\ContactSession1\\ContactSession1.csproj",
+        "projectUniqueName": "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BincomOctober2024CSharp\\ContactSession1.csproj",
         "projectName": "ContactSession1",
-        "projectPath": "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BincomOctober2024CSharp\\ContactSession1\\ContactSession1.csproj",
+        "projectPath": "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BincomOctober2024CSharp\\ContactSession1.csproj",
         "packagesPath": "C:\\Users\\ccaeaad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BincomOctober2024CSharp\\ContactSession1\\obj\\",
+        "outputPath": "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BincomOctober2024CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ccaeaad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ContactSession1.props" />
+</Project>
