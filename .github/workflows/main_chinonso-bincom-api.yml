@@ -25,7 +25,7 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o ./publish_output
+        run: dotnet publish -c Release -o ./publish
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
@@ -48,12 +48,6 @@ jobs:
         with:
           name: .net-app
       
-      - name: Print client-id, tenant-id, and subscription-id
-        run: |
-            echo "Client ID: ${{ secrets.AZUREAPPSERVICE_CLIENTID_C656335AE56E45E9B618A1FE7C04EB97 }}"
-            echo "Tenant ID: ${{ secrets.AZUREAPPSERVICE_TENANTID_DECF0AB31A224B3FAE68CFDB6CCED70B }}"
-            echo "Subscription ID: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_46EF9E201A8E4829AE355051C491E936 }}"
-            
       - name: Login to Azure
         uses: azure/login@v2
         with:
@@ -67,4 +61,4 @@ jobs:
         with:
           app-name: 'chinonso-bincom-api'
           slot-name: 'Production'
-          package: ./publish_output  # Ensure this path matches the output from the publish step
+          package: ./publish  # Ensure this path matches the output from the publish step
