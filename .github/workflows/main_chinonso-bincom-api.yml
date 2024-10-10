@@ -24,9 +24,6 @@ jobs:
       - name: Print working directory
         run: pwd
 
-      - name: List files
-        run: ls -la
-      
       - name: Build with dotnet
         run: dotnet build --configuration Release
 
