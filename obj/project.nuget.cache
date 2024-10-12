@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W19gMTMXhlo=",
+  "dgSpecHash": "Z8QOzjBrHDw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BincomOctober2024CSharp\\ContactSession1.csproj",
+  "projectFilePath": "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BA\\ContactSession1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ccaeaad\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\ccaeaad\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

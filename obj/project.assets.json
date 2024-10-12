@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BincomOctober2024CSharp\\ContactSession1.csproj",
+      "projectUniqueName": "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BA\\ContactSession1.csproj",
       "projectName": "ContactSession1",
-      "projectPath": "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BincomOctober2024CSharp\\ContactSession1.csproj",
+      "projectPath": "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BA\\ContactSession1.csproj",
       "packagesPath": "C:\\Users\\ccaeaad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BincomOctober2024CSharp\\obj\\",
+      "outputPath": "C:\\Users\\ccaeaad\\OneDrive - University College London\\GitHub\\BincomApps\\BA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ccaeaad\\AppData\\Roaming\\NuGet\\NuGet.Config",
